@@ -1,0 +1,367 @@
+version: '3.7'
+
+services:
+  node-app-1:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4011:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-2:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4012:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-3:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4013:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-4:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4014:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-5:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4015:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-6:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4016:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-7:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4017:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-8:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4018:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-9:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4019:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-10:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4020:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-11:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4021:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-12:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4022:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+
+  node-app-13:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4023:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-14:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4024:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-15:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4025:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-16:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4026:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-17:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4027:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-18:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4028:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-19:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4029:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-20:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4030:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-21:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4031:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-22:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4032:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+    
+  node-app-23:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4033:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-24:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4034:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-25:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4035:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-26:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4036:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-27:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4037:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-28:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4038:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+
+  node-app-29:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4039:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+
+  node-app-30:
+    user: root
+    restart: always
+    build:
+      context: .
+    ports:
+      - "4040:4008"
+    volumes:
+      - ./fanosDesign:/usr/src/app/fanosDesign
+    networks:
+      - custom_network
+networks:
+  custom_network:
+    external: true
